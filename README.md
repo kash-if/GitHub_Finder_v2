@@ -1,6 +1,6 @@
-# Welcome to Github Finder version 2
+# Welcome to GitHub Finder version 2
 
-Github Finder v2 App has been implemented in React. For App Global state management Context API is used along with useReducer hook to update state. Github API "https://api.github.com/" is used to fetch user data and repositories data from Github.
+GitHub Finder v2 App has been implemented in React. For App Global state management Context API is used along with useReducer hook to update state. GitHub API "https://api.github.com/" is used to fetch user data and repositories data from GitHub. "Axios" is used to make GET request to GitHub REST API.
 
 
 ## Available Scripts
