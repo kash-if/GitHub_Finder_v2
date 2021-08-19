@@ -42,7 +42,7 @@ const User = ({ match }) => {
         <div className="all-center">
         <img src={avatar_url} alt="" className="round-img" style={{width:'150px'}}/>
         <h1>{name}</h1>
-        <p><strong>Location:</strong> {location}</p>
+        {location && (<p><strong>Location:</strong> {location}</p>)}
         </div>
         <div>
           {bio && (<Fragment>
